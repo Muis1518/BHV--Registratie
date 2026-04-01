@@ -1,0 +1,104 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #e9ecef; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; /* Veranderd naar min-height voor scrollen op kleine schermen */
+    margin: 20px 0; 
+}
+
+.container { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    width: 420px; /* Iets breder voor de nieuwe velden */
+    border-top: 6px solid #005eb8; 
+}
+
+.logo-placeholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #005eb8;
+}
+
+h2 { color: #333; text-align: center; margin-top: 5px; font-size: 18px; }
+.subtitle { text-align: center; color: #666; font-size: 13px; margin-bottom: 20px; }
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 12px;
+    font-weight: bold;
+    color: #005eb8;
+    padding: 0 5px;
+}
+
+label { 
+    font-size: 12px; 
+    color: #555; 
+    font-weight: bold; 
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0 12px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+}
+
+/* Styling voor de BHV checkbox en dagen */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.days-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.days-grid label {
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+}
+
+button { 
+    width: 100%; 
+    padding: 14px; 
+    background-color: #005eb8; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover { background-color: #004586; }
+
+.footer-text { 
+    font-size: 10px; 
+    color: #999; 
+    text-align: center; 
+    margin-top: 15px; 
+}
