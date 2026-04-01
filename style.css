@@ -8,20 +8,31 @@ body {
     margin: 20px 0; 
 }
 
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-logo {
+    max-width: 10000px; /* Je kunt dit getal aanpassen voor de grootte */
+    height: auto;
+    display: inline-block;
+}
+
 .container { 
     background: white; 
     padding: 30px; 
     border-radius: 12px; 
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
     width: 420px; /* Iets breder voor de nieuwe velden */
-    border-top: 6px solid #005eb8; 
+    border-top: 6px solid rgb(28, 59, 109); 
 }
 
 .logo-placeholder {
     text-align: center;
     font-weight: bold;
     font-size: 22px;
-    color: #005eb8;
+    color: rgb(28, 59, 109);
 }
 
 h2 { color: #333; text-align: center; margin-top: 5px; font-size: 18px; }
@@ -37,7 +48,7 @@ fieldset {
 legend {
     font-size: 12px;
     font-weight: bold;
-    color: #005eb8;
+    color: rgb(28, 59, 109);
     padding: 0 5px;
 }
 
@@ -55,7 +66,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     border: 1px solid #ccc; 
     border-radius: 5px; 
     box-sizing: border-box;
-    background-color: #fcfcfc;
+    background-color: #f2f2f2;
 }
 
 /* Styling voor de BHV checkbox en dagen */
@@ -84,7 +95,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
 button { 
     width: 100%; 
     padding: 14px; 
-    background-color: #005eb8; 
+    background-color: rgb(28, 59, 109); 
     color: white; 
     border: none; 
     border-radius: 6px; 
@@ -94,7 +105,7 @@ button {
     margin-top: 10px;
 }
 
-button:hover { background-color: #004586; }
+button:hover { background-color: rgb(28, 59, 109); }
 
 .footer-text { 
     font-size: 10px; 
